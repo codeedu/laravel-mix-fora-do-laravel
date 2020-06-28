@@ -4,7 +4,11 @@
 
 ## Descrição
 
-Como iniciar com projeto Nest.js com Docker
+Como usar o Laravel Mix fora do ambiente do Laravel.
+
+Ele pode ser usado com qualquer outro framework e desta vez a integração é o Nest.js.
+
+O Laravel Mix é uma ferramenta que trabalha com o webpack para organizar os assets da aplicação WEB.
 
 ### Para Windows 
 
@@ -26,3 +30,4 @@ docker-compose up
 ## Rodar o projeto
 
 * Acesse http://localhost:3000 para acessar o Nest.js
+* Ver no package.json em scripts, todos os gatilhos com prefixo **frontend** para processar os ativos.
